@@ -12,7 +12,8 @@ def test_google_cats(browser):
 
 
 def test_dubs(browser):
-    """This test intentionally fails. There really is a link with text
+    """
+    This test intentionally fails. There really is a link with text
     'Read more' but for some reason we can't pull it out.
     """
     browser.get('https://uw.edu')

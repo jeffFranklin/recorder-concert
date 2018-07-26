@@ -1,4 +1,4 @@
-# Use storyboarding to accurately capture your web application's health and to drive its design
+# Using storyboarding to accurately capture your web application's health and to drive its design
 
 ## Quickstart for this repository
 
@@ -43,3 +43,4 @@ pytest demo.py
 ## Issues
 
 * PhantomJS deprecation in favor of headless chrome
+* webdriver-recorder still slightly tailored to Identity.UW styles.

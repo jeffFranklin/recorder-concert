@@ -1,0 +1,8 @@
+.vscode
+venv
+node_modules
+__pycache__
+.pytest_cache
+ghostdriver.log
+package-lock.json
+webdriver-report

@@ -1,6 +1,8 @@
 language: python
 python:
 - 3.6
+before_install:
+- export TZ=America/Los_Angeles
 install:
 - pip install -r requirements.txt
 - npm install phantomjs-prebuilt

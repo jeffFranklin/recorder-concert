@@ -2,9 +2,10 @@ import pytest
 import time
 
 def test_google_cats(browser):
+    """Check out the latest typing cat images."""
     browser.get('https://google.com')
     time.sleep(1)
-    # browser.wait_for('span', "i'm feeling lucky")
+    browser.snap()
     browser.send('cats typing\n')
     browser.click('a', 'images for cats typing')
     browser.wait_for('a', 'google images home')

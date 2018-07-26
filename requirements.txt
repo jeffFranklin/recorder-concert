@@ -1,2 +1,3 @@
 pytest
 -e git+https://github.com/UWIT-IAM/webdriver-recorder.git#egg=webdriver-recorder
+-e git+https://github.com/jeffFranklin/sendslack.git#egg=sendslack

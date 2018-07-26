@@ -6,8 +6,8 @@ def test_google_cats(browser):
     browser.get('https://google.com')
     time.sleep(1)
     browser.snap()
-    browser.send('cats typing\n')
-    browser.click('a', 'images for cats typing')
+    browser.send('keyboard cat\n')
+    browser.click('a', 'images for keyboard cat')
     browser.wait_for('a', 'google images home')
 
 

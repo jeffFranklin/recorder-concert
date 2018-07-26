@@ -5,4 +5,4 @@ __pycache__
 .pytest_cache
 ghostdriver.log
 package-lock.json
-webdriver-report
+webdriver-report.html

@@ -44,3 +44,8 @@ pytest demo.py
 
 * PhantomJS deprecation in favor of headless chrome
 * webdriver-recorder still slightly tailored to Identity.UW styles.
+
+## Repositories used by this demo
+
+* https://github.com/UWIT-IAM/webdriver-recorder
+* https://github.com/jeffFranklin/sendslack
